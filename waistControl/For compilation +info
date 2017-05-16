@@ -1,0 +1,40 @@
+export CMAKE_PREFIX_PATH=/home/julen/idyntree:/home/julen/idyntree/src:/home/julen/idyntree/extern:/home/julen/idyntree/build/CMakeFiles
+
+
+
+Name of joint_states
+['LAnkLat', 'LAnkSag', 'LElbj', 'LForearmPlate', 'LHipLat', 'LHipSag', 'LHipYaw', 'LKneeSag', 'LShLat', 'LShSag', 'LShYaw', 'LWrj1', 'LWrj2', 'RAnkLat', 'RAnkSag', 'RElbj', 'RForearmPlate', 'RHipLat', 'RHipSag', 'RHipYaw', 'RKneeSag', 'RShLat', 'RShSag', 'RShYaw', 'RWrj1', 'RWrj2', 'WaistLat', 'WaistSag', 'WaistYaw']
+
+
+Order from kinDynComp
+
+DOF Index: 0 Name: WaistLat
+DOF Index: 1 Name: WaistSag
+DOF Index: 2 Name: WaistYaw
+DOF Index: 3 Name: RHipSag
+DOF Index: 4 Name: RHipLat
+DOF Index: 5 Name: RHipYaw
+DOF Index: 6 Name: RKneeSag
+DOF Index: 7 Name: RAnkLat
+DOF Index: 8 Name: RAnkSag
+DOF Index: 9 Name: LHipSag
+DOF Index: 10 Name: LHipLat
+DOF Index: 11 Name: LHipYaw
+DOF Index: 12 Name: LKneeSag
+DOF Index: 13 Name: LAnkLat
+DOF Index: 14 Name: LAnkSag
+DOF Index: 15 Name: RShSag
+DOF Index: 16 Name: RShLat
+DOF Index: 17 Name: RShYaw
+DOF Index: 18 Name: RElbj
+DOF Index: 19 Name: LShSag
+DOF Index: 20 Name: LShLat
+DOF Index: 21 Name: LShYaw
+DOF Index: 22 Name: LElbj
+DOF Index: 23 Name: LForearmPlate
+DOF Index: 24 Name: LWrj1
+DOF Index: 25 Name: LWrj2
+DOF Index: 26 Name: RForearmPlate
+DOF Index: 27 Name: RWrj1
+DOF Index: 28 Name: RWrj2
+

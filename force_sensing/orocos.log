@@ -1,0 +1,160 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.8.3' compiled with GCC 4.8.4. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1490353947396321645 ticks ( 1.49035e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /opt/ros/indigo/lib/orocos:/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos:/home/julen/TFM/Force_sensor/build/orocos . Searching in: /opt/ros/indigo/lib/orocos:/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos:/home/julen/TFM/Force_sensor/build/orocos
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.000 [ Info   ][Logger] Loading plugin libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/./plugins ...
+0.005 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.006 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.006 [ Info   ][Logger] Loading plugin libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/./plugins ...
+0.006 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.006 [ Info   ][Logger] Loading typekit libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/./types ...
+0.007 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.007 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.017 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://rtt-types.
+0.017 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-corba-types' from 'rtt-transport-corba'
+0.027 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for int
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for uint
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for double
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for float
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for char
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for bool
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for void
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for ConnPolicy
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for TaskContext
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for string
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for array
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for rt_string
+0.027 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.027 [ Info   ][Logger] Loading typekit libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/./types ...
+0.028 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /opt/ros/indigo/lib/orocos:/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos:/home/julen/TFM/Force_sensor/build/orocos . Searching in: /opt/ros/indigo/lib/orocos:/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos:/home/julen/TFM/Force_sensor/build/orocos
+0.028 [ Info   ][Logger] OCL factory set for real-time logging
+0.028 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+0.028 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5464 ).
+0.028 [ Info   ][Logger] No site file was found. Importing 'ocl' by default.
+0.028 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/indigo/lib/orocos/gnulinux/ocl ...
+0.029 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.037 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+0.037 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::NetcdfReporting'
+0.038 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.039 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaComponent'
+0.040 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::HelloWorld'
+0.040 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.040 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/indigo/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.041 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaTLSFComponent'
+0.041 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/ocl/types ...
+0.043 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.043 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.043 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/ocl/plugins ...
+0.043 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'Lua' from 'rttlua-plugin'
+0.043 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'LuaTLSF' from 'rttlua-tlsf-plugin'
+0.044 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'os' from 'os'
+0.045 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'print' from 'print'
+0.045 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/ocl ...
+0.046 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.047 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+0.047 [ Warning][ComponentLoader::import(path_list)] Component type name OCL::NetcdfReporting already used: overriding.
+0.047 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::NetcdfReporting'
+0.048 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.048 [ Warning][ComponentLoader::import(path_list)] Component type name OCL::LuaComponent already used: overriding.
+0.048 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaComponent'
+0.050 [ Warning][ComponentLoader::import(path_list)] Component type name OCL::HelloWorld already used: overriding.
+0.050 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::HelloWorld'
+0.051 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.055 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::logging::Log4cxxAppender'
+0.057 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.058 [ Warning][ComponentLoader::import(path_list)] Component type name OCL::LuaTLSFComponent already used: overriding.
+0.058 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaTLSFComponent'
+0.059 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/ocl/types ...
+0.059 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/ocl/plugins ...
+0.059 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='TaskBrowser'
+0.059 [ Info   ][TaskBrowser] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5465 ).
+0.060 [ Info   ][Logger] Entering Task Deployer
+9.273 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GlobalEngine'
+9.273 [ Info   ][GlobalEngine] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5469 ).
+9.274 [ Info   ][Logger] Loading Service or Plugin scripting in TaskContext Deployer
+9.276 [ Info   ][Logger] Running Script /home/julen/TFM/Force_sensor/ops/FULL_CCC.ops ...
+9.277 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/indigo/lib/orocos/gnulinux/eigen_typekit ...
+9.277 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/eigen_typekit/types ...
+9.281 [ Info   ][TypekitRepository::Import] Loading Typekit Eigen.
+9.281 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'Eigen' from 'eigen_typekit'
+9.281 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/eigen_typekit ...
+9.281 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/eigen_typekit/types ...
+9.281 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/indigo/lib/orocos/gnulinux/kdl_typekit ...
+9.281 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/indigo/lib/orocos/gnulinux/kdl_typekit/types ...
+9.306 [ Info   ][TypekitRepository::Import] Loading Typekit KDL.
+9.307 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'KDL' from 'kdl_typekit'
+9.308 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://KDL.
+9.308 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Frame
+9.308 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Rotation
+9.308 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Twist
+9.308 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Vector
+9.308 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Wrench
+9.308 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'kdl-corba-types' from 'kdl-transport-corba'
+9.308 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/kdl_typekit ...
+9.308 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/kdl_typekit/types ...
+9.308 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rst-rt_typekit ...
+9.308 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rst-rt_typekit/types ...
+9.340 [ Info   ][TypekitRepository::Import] Loading Typekit rst-rt.
+9.341 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rst-rt' from 'rst-rt_typekit'
+9.341 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rtt_rsbcomm ...
+9.341 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rtt_rsbcomm/types ...
+9.360 [ Info   ][TypekitRepository::Import] Loading Transport rsb+socket://rsb.
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for bool
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for char
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for double
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for float
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for int
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.dynamics.Forces
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.dynamics.JointImpedance
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.dynamics.JointTorques
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.dynamics.Torques
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.dynamics.Wrench
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.geometry.Translation
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.kinematics.JointAccelerations
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.kinematics.JointAngles
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.kinematics.JointJerks
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.kinematics.JointVelocities
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.robot.JointState
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for rstrt.robot.Weights
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for string
+9.360 [ Info   ][TypekitRepository::Import] Registered new 'rsb+socket' transport for uint
+9.360 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rtt-rsb-socket-transport' from 'rtt-rsb-socket-transport'
+9.360 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rtt_rsbcomm/plugins ...
+9.361 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rtt-rsb-scope-service' from 'rtt-rsb-scope-service'
+9.361 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rtt_gazebo_embedded ...
+9.432 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'RTTGazeboEmbedded'
+9.434 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'ModelPluginExample'
+9.434 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rtt-core-extensions ...
+9.439 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rtt-core-extensions/librtt-core-extensions-components-gnulinux.so'
+9.439 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/TFM/Force_sensor/build/orocos/gnulinux/Force_sensor ...
+9.444 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/home/julen/TFM/Force_sensor/build/orocos/gnulinux/Force_sensor/libForce_sensor-gnulinux.so'
+9.444 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Fuerza'
+9.444 [ Info   ][Fuerza] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0 (PID= 5471 ).
+9.478 [ Info   ][loadComponent] Adding Fuerza as new peer:  OK.
+9.479 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=10, CPU affinity=4294967295, with name='Fuerza'
+9.479 [ Warning][Thread] Forcing priority (10) of thread with SCHED_OTHER policy to 0.
+9.479 [ Info   ][Fuerza] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 255 and period 0.5 (PID= 5514 ).
+9.479 [ Info   ][ComponentLoader::import(path_list)] Importing directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rtt_dot_service ...
+9.480 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /home/julen/citk/systems/cogimon-minimal-trusty-nightly/lib/orocos/gnulinux/rtt_dot_service/plugins ...
+9.480 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'dot' from 'rtt_dot_service'
+9.481 [ Info   ][ScriptingService] Loading Service or Plugin dot in TaskContext Deployer
+15.804 [ Info   ][Logger] Ignoring deployment shutdown function due to missing peer.
+15.805 [ Info   ][stopComponentsGroup] Stopping group 0
+15.805 [ Info   ][stopComponentsGroup] Stopped Fuerza
+15.805 [ Info   ][cleanupComponentsGroup] Cleaning up group 0
+15.805 [ Info   ][cleanupComponentsGroup] Cleaned up Fuerza
+15.805 [ Info   ][Logger] Unloading group 0
+15.979 [ Info   ][Logger] Disconnected and destroyed Fuerza
+15.979 [ Info   ][Logger] Kick-out of group 0 successful.
+15.980 [ Info   ][Logger] Orocos Logging Deactivated.

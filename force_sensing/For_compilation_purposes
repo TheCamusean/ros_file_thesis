@@ -1,0 +1,11 @@
+export RTT_COMPONENT_PATH=$RTT_COMPONENT_PATH:/home/julen/TFM/Force_sensor/build/orocos
+
+
+
+cmake -DCMAKE_INSTALL_PREFIX=/home/julen/citk/systems/cogimon-minimal-trusty-nightly ..
+
+deployer-gnulinux
+
+loadService("this","scripting")
+scripting.runScript("/home/julen/TFM/Force_sensor/ops/FULL_CCC.ops")
+

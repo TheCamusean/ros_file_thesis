@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<robot name="test_robot">
+
+    <link name="hander_right">
+  <inertial>
+      <mass value="0.00001"/>
+      <origin xyz="1.1 0.3 0.682926" rpy="0 0 0"/>
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+
+    <visual>
+      <origin xyz="1.1 0.3 0.682926" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="Green"/>
+    </visual>
+
+    <collision>
+      <origin xyz="1.1 0.3 0.682926" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.02 0.02"/>
+      </geometry>
+      <contact_coefficient mu="0"  resitution="0"  k_p="0"  k_d="0" />
+    </collision>
+  </link>
+
+  <link name="table">
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" />
+      <mass value="3.67875" />
+      <inertia  ixx="0.0902911" ixy="0.0"  ixz="0.0"  iyy="0.0902911"  iyz="0.0"  izz="0.0902911" />
+    </inertial>
+    <visual>
+      <origin xyz="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="1 0.839543 0.682926" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="1 0.839543 0.682926" />
+      </geometry>
+    </collision>
+  </link>
+
+
+
+
+   <link name="hander_left">
+  <inertial>
+      <mass value="0.00001"/>
+      <origin xyz="-1.1 0.3 0.682926" rpy="0 0 0"/>
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+
+    <visual>
+      <origin xyz="-1.1 0.3 0.682926" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="Green"/>
+    </visual>
+
+    <collision>
+      <origin xyz="-1.1 0.3 0.682926" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.02 0.02"/>
+      </geometry>
+      <contact_coefficient mu="0"  resitution="0"  k_p="0"  k_d="0" />
+    </collision>
+  </link>
+
+  <!-- 
+  <gazebo reference="link1">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <gazebo reference="link2">
+    <material>Gazebo/Green</material>
+  </gazebo>
+
+
+  <joint name="joint1" type="fixed">
+    <parent link="hander_right"/>
+    <child link="table"/>
+    <origin xyz="0.0 0.0 0" rpy="0 0 0" />
+    <axis xyz="-0.9 0.15 0" />
+  </joint>
+
+   <joint name="joint2" type="fixed">
+    <parent link="hander_right"/>
+    <child link="hander_left"/>
+    <origin xyz="0.0 0.0 0" rpy="0 0 0" />
+    <axis xyz="-0.9 0.15 0" />
+  </joint>
+
+  -->
+</robot>

@@ -1,0 +1,9 @@
+digraph G { 
+rankdir=TB; 
+"Fuerza"[style=filled,width=1.8,height=1.8,color=lightblue];
+"out_force_port"[shape=point];
+Fuerza->"out_force_port"[ label="out_force_port"];
+"out_force_port2"[shape=point];
+Fuerza->"out_force_port2"[ label="out_force_port2"];
+"Deployer"[style=filled,width=1.8,height=1.8,color=lightblue];
+}

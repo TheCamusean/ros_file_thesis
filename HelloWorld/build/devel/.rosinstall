@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/julen/catkin_ws/src/HelloWorld/build/devel/setup.sh

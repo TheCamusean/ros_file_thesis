@@ -1,0 +1,7 @@
+export CMAKE_PREFIX_PATH=/home/julen/idyntree:/home/julen/idyntree/src:/home/julen/idyntree/extern:/home/julen/idyntree/build/CMakeFiles
+
+
+
+Name of Joints
+['LAnkLat', 'LAnkSag', 'LElbj', 'LForearmPlate', 'LHipLat', 'LHipSag', 'LHipYaw', 'LKneeSag', 'LShLat', 'LShSag', 'LShYaw', 'LWrj1', 'LWrj2', 'RAnkLat', 'RAnkSag', 'RElbj', 'RForearmPlate', 'RHipLat', 'RHipSag', 'RHipYaw', 'RKneeSag', 'RShLat', 'RShSag', 'RShYaw', 'RWrj1', 'RWrj2', 'WaistLat', 'WaistSag', 'WaistYaw']
+
